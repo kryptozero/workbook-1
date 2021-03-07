@@ -1,10 +1,6 @@
-var j = prompt("Enter digit: ");
-var i = 1;
+var max = 1*prompt ("Please enter an integer.");
 var sum = 0;
-while (i <= j) {
-    sum =+ i;
-    i++;
-    average = sum/(j+1);
-}
-console.log(sum);
+for (var i=0; i<=max; i++)
+ sum = sum + i;
+console.log("The average of 0 to "+max+" is "+(sum/(max+1))); 
 
